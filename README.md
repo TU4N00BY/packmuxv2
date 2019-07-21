@@ -20,3 +20,9 @@ cd packmux
 
 ./install
 ```
+# License
+Kode Lisensi!
+License Code!
+```
+2918-mwjq-1082
+```
