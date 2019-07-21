@@ -1,4 +1,4 @@
-#Cara Install
+Cara Install
 Ikuti Perintah Ini!
 ```
 pkg install git
@@ -9,7 +9,7 @@ cd packmux
 
 ./install
 ```
-##How To Install
+#How To Install#
 Follow Then Commands!
 ```
 pkg install git
