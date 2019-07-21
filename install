@@ -1,0 +1,34 @@
+#!/bin/bash
+y='\033[1;33m'
+r='\033[1;31m'
+g='\033[1;32m'
+c='\033[1;36m'
+und='\033[4m'
+
+trap ctrl_c INT
+ctrl_c() {
+clear
+echo -e $c"Detected,$y Trying To Exit"
+echo "Exiting..."
+sleep 3
+clear
+exit
+}
+clear
+echo -e "
+$r  ╔═╗╔═╗╔═╗╦╔═╔╦╗╦ ╦═╗ ╦
+$g  ╠═╝╠═╣║  ╠╩╗║║║║ ║╔╩╦╝
+$y  ╩  ╩ ╩╚═╝╩ ╩╩ ╩╚═╝╩ ╚═
+$c ++++++++++++++++++++++++\n"
+echo -e "$y  Input the license to install!"
+read ent;
+if [ $ent == '2918-mwjq-1082' ];then
+clear
+pkg install nano python python2 unzip root-repo game-repo mc openssh curl wget figlet cowsay toilet zip moon-buggy -y && termux-setup-storage && pip install --upgrade && pkg update && pkg upgrade
+
+else
+clear
+echo -e $r "Your license is wrong"
+echo -e $g "GO To$und https://github.com/TU4N00BY/packmux"
+echo -e "\e[0m"
+fi
