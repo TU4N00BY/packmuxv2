@@ -10,7 +10,7 @@ cd packmux
 ./install
 ```
 # How To Install
-Follow Then Commands!
+Follow The Commands!
 ```
 pkg install git
 
