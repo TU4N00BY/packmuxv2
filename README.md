@@ -3,9 +3,9 @@ Ikuti Perintah Ini!
 ```
 pkg install git
 
-git clone https://github.com/TU4N00BY/packmux
+git clone https://github.com/TU4N00BY/packmuxv2
 
-cd packmux
+cd packmuxv2
 
 ./install
 ```
@@ -14,9 +14,9 @@ Follow The Commands!
 ```
 pkg install git
 
-git clone https://github.com/TU4N00BY/packmux
+git clone https://github.com/TU4N00BY/packmuxv2
 
-cd packmux
+cd packmuxv2
 
 ./install
 ```
@@ -24,5 +24,5 @@ cd packmux
 Kode Lisensi!
 License Code!
 ```
-2918-mwjq-1082
+2019-tuanooby-packmux
 ```
