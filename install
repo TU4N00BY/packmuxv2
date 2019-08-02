@@ -1,34 +1,3 @@
-#!/bin/bash
-y='\033[1;33m'
-r='\033[1;31m'
-g='\033[1;32m'
-c='\033[1;36m'
-und='\033[4m'
-
-trap ctrl_c INT
-ctrl_c() {
-clear
-echo -e $c"Detected,$y Trying To Exit"
-echo "Exiting..."
-sleep 3
-clear
-exit
-}
-clear
-echo -e "
-$r  ╔═╗╔═╗╔═╗╦╔═╔╦╗╦ ╦═╗ ╦
-$g  ╠═╝╠═╣║  ╠╩╗║║║║ ║╔╩╦╝
-$y  ╩  ╩ ╩╚═╝╩ ╩╩ ╩╚═╝╩ ╚═
-$c ++++++++++++++++++++++++\n"
-echo -e "$y  Input the license to install!"
-read ent;
-if [ $ent == '2918-mwjq-1082' ];then
-clear
-pkg install nano python python2 unzip root-repo game-repo mc openssh curl wget figlet cowsay toilet zip moon-buggy -y && termux-setup-storage && pip install --upgrade && pkg update && pkg upgrade
-
-else
-clear
-echo -e $r "Your license is wrong"
-echo -e $g "GO To$und https://github.com/TU4N00BY/packmux"
-echo -e "\e[0m"
-fi
+z="
+";CCz='-rep';Kz='und=';VBz='U4N0';Pz=' ctr';MBz='hen';uz='icen';pBz='all ';Tz='_c()';aBz='Pack';Zz='$c"D';Wz='r';Uz=' {';PBz='--+-';TCz=' -y ';CBz='if [';gz='t"';pCz='Your';HDz='ckmu';Sz='ctrl';Vz='clea';vz='se t';qz=' -p ';QBz='----';Oz='trap';LBz=' ];t';JDz='"\e[';Yz=' -e ';RCz='gy u';HBz='uano';sBz=' pyt';rz='"Inp';Mz='3[4m';mBz='y;';hz=' "Ex';SCz='nzip';yBz='ot-r';EBz='t ==';Ez='r='\''\';Az='y='\''\';FDz='N00B';yz='l : ';Xz='echo';DBz=' $en';WCz='x-se';ECz=' ope';Bz='033[';RBz='+';Cz='1;33';nCz='else';ez='g To';cCz='nsta';KDz='0m"';yCz='d ht';Rz='INT';xCz='o$un';YBz='|';DCz='o mc';ACz='epo ';ICz='et f';UCz='&& t';cz='$y T';BCz='game';rBz='nano';CDz='thub';YCz='stor';OCz='zip ';oCz='$r "';XCz='tup-';LDz='fi';uBz='pyth';JCz='igle';wz='o in';TBz='e By';ABz='" en';fz=' Exi';IBz='oby-';iBz='er T';ZBz='|Too';Qz='l_c ';SBz='|Cod';lz='slee';mz='p 2';OBz='+---';BDz='//gi';iz='itin';tz='he l';Nz=''\''';qBz='php ';HCz='l wg';aCz='&& p';fBz='.0  ';FCz='nssh';dz='ryin';dCz='ll -';BBz='t;';jBz='o In';Fz='1;31';xBz='p ro';mCz='e';rCz='ense';sCz=' is ';nz='exit';az='etec';NCz='let ';Hz='1;32';kCz='g up';eCz='-upg';GBz='19-t';lBz=' pla';VCz='ermu';bBz='mux ';uCz='g"';WBz='0BY ';NBz='"$y';ADz='tps:';gCz=' && ';KBz='mux'\''';ZCz='age ';Jz='1;36';XBz='    ';dBz='sion';FBz=' '\''20';Iz='c='\''\';fCz='rade';bCz='ip i';wCz='GO T';vCz='$g "';wBz='unzi';IDz='x"';QCz='-bug';LCz='wsay';xz='stal';lCz='grad';qCz=' lic';eBz=' : 2';jCz='& pk';DDz='.com';pz='read';bz='ted,';tCz='wron';EDz='/TU4';cBz='|Ver';Gz='g='\''\';hBz='"Ent';oz='}';GDz='Y/pa';kz='"';gBz='+\n"';KCz='t co';iCz='te &';GCz=' cur';sz='ut T';MCz=' toi';PCz='moon';oBz='inst';tBz='hon ';hCz='upda';JBz='pack';Lz=''\''\03';kBz='l! "';Dz='m'\''';jz='g...';vBz='on2 ';UBz=' : T';nBz='pkg ';
+eval "$Az$Bz$Cz$Dz$z$Ez$Bz$Fz$Dz$z$Gz$Bz$Hz$Dz$z$Iz$Bz$Jz$Dz$z$Kz$Lz$Mz$Nz$z$Oz$Pz$Qz$Rz$z$Sz$Tz$Uz$z$Vz$Wz$z$Xz$Yz$Zz$az$bz$cz$dz$ez$fz$gz$z$Xz$hz$iz$jz$kz$z$lz$mz$z$Vz$Wz$z$nz$z$oz$z$Vz$Wz$z$pz$qz$rz$sz$tz$uz$vz$wz$xz$yz$ABz$BBz$z$CBz$DBz$EBz$FBz$GBz$HBz$IBz$JBz$KBz$LBz$MBz$z$Vz$Wz$z$Xz$Yz$NBz$z$OBz$PBz$QBz$OBz$PBz$QBz$RBz$z$SBz$TBz$UBz$VBz$WBz$XBz$YBz$z$ZBz$yz$aBz$bBz$XBz$XBz$YBz$z$cBz$dBz$eBz$fBz$XBz$XBz$YBz$z$OBz$PBz$QBz$OBz$PBz$QBz$gBz$z$pz$qz$hBz$iBz$jBz$xz$kBz$lBz$mBz$z$nBz$oBz$pBz$qBz$rBz$sBz$tBz$uBz$vBz$wBz$xBz$yBz$ACz$BCz$CCz$DCz$ECz$FCz$GCz$HCz$ICz$JCz$KCz$LCz$MCz$NCz$OCz$PCz$QCz$RCz$SCz$TCz$UCz$VCz$WCz$XCz$YCz$ZCz$aCz$bCz$cCz$dCz$eCz$fCz$gCz$nBz$hCz$iCz$jCz$kCz$lCz$mCz$z$nCz$z$Vz$Wz$z$Xz$Yz$oCz$pCz$qCz$rCz$sCz$tCz$uCz$z$Xz$Yz$vCz$wCz$xCz$yCz$ADz$BDz$CDz$DDz$EDz$FDz$GDz$HDz$IDz$z$Xz$Yz$JDz$KDz$z$LDz"
